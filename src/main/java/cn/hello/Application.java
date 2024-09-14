@@ -7,6 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @Author ziyu.wei
  * <p>
  * 2024/4/18 16:09
+ * analysis springboot start
+ *
  */
 @SpringBootApplication
 public class Application {
