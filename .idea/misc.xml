@@ -5,6 +5,14 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/points/pom.xml" />
+        <option value="$PROJECT_DIR$/../daily_points/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring-cloud-alibaba-exaple/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring-cloud-alibaba-exaple/dubbo-nacos-exaple/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring-cloud-alibaba-exaple/dubbo-nacos-exaple/public-api/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring-cloud-alibaba-exaple/dubbo-nacos-exaple/dubbo-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring-cloud-alibaba-exaple/dubbo-nacos-exaple/dubbo-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/../ZyBatis/pom.xml" />
       </list>
     </option>
   </component>

@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/ZiyuBatis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ZiyuBatis/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/points/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/points/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../ZyBatis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../ZyBatis/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../daily_points/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../daily_points/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-cloud-alibaba-exaple/dubbo-nacos-exaple/dubbo-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-cloud-alibaba-exaple/dubbo-nacos-exaple/dubbo-consumer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-cloud-alibaba-exaple/dubbo-nacos-exaple/dubbo-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-cloud-alibaba-exaple/dubbo-nacos-exaple/dubbo-provider/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-cloud-alibaba-exaple/dubbo-nacos-exaple/public-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-cloud-alibaba-exaple/dubbo-nacos-exaple/public-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-cloud-alibaba-exaple/dubbo-nacos-exaple/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-cloud-alibaba-exaple/dubbo-nacos-exaple/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-cloud-alibaba-exaple/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-cloud-alibaba-exaple/src/main/resources" charset="UTF-8" />
   </component>
 </project>

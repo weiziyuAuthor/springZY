@@ -28,9 +28,9 @@ public class WebServicePublishConfig {
     }
  
     @Resource
-    private ApiCommonService apiCommonService;
+    private TaskMgrControl apiCommonService;
     @Resource
-    private List<ApiCommonService> apiServices;
+    private List<TaskMgrControl> apiServices;
     @Resource
     @Qualifier(Bus.DEFAULT_BUS_ID)
     private SpringBus bus;

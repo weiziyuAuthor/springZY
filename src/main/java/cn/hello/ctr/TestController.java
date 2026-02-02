@@ -5,9 +5,15 @@ import cn.hello.bean.Student;
 import cn.hello.service.IStudentService;
 import com.alibaba.fastjson.JSON;
 import lombok.Data;
+import org.apache.commons.io.IOUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.multipart.MultipartFile;
 
+import javax.servlet.http.HttpServletRequest;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
 import java.util.List;
 
 /**
@@ -22,6 +28,29 @@ public class TestController {
 
     @Autowired
     private IStudentService studentService;
+
+
+
+    @PostMapping("/upload")
+    public void importFile(HttpServletRequest request, @RequestPart("file") MultipartFile file) {
+        if (file != null) {
+            FileOutputStream fileOutputStream = null;
+            try {
+                fileOutputStream = new FileOutputStream(new File("D:\\doc-t\\需求\\JW-VMI\\测试数据\\241214\\q.db"));
+                IOUtils.write(file.getBytes(), fileOutputStream);
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }finally {
+                try {
+                    fileOutputStream.close();
+                } catch (IOException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+            System.out.println("1111");
+        }
+
+    }
 
     /**
      * 获取用户信息

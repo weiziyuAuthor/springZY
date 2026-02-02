@@ -8,7 +8,9 @@ spring:
     hikari:
       username: root
       password: 123456
-
+  logging:
+    level:
+      root: debug
 mybatis:
   # 搜索指定包别名
   typeAliasesPackage: cn.hello

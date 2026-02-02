@@ -6,11 +6,27 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="public-api" />
+        <module name="dubbo-provider" />
+        <module name="ZiyuBatis" />
+        <module name="ZyBatis" />
+        <module name="daily_points" />
         <module name="start-up" />
+        <module name="dubbo-consumer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="points" target="1.8" />
       <module name="sdi-tool" target="1.8" />
+      <module name="ZiyuBatis" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="dubbo-consumer" options="-parameters" />
+      <module name="dubbo-nacos-exaple" options="" />
+      <module name="dubbo-provider" options="-parameters" />
+      <module name="public-api" options="-parameters" />
+    </option>
   </component>
 </project>
