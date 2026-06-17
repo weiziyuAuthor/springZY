@@ -4,6 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
+import org.springframework.scheduling.annotation.EnableAsync;
 import org.springframework.ws.config.annotation.EnableWs;
 
 /**
@@ -16,6 +17,7 @@ import org.springframework.ws.config.annotation.EnableWs;
 @SpringBootApplication
 @ComponentScan(basePackages= "cn.hello")
 @EnableAutoConfiguration
+@EnableAsync
 //@EnableWs
 //@EnableAutoConfiguration(exclude = {cn.hello.ctr.TestController.class})
 public class Application {
